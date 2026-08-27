@@ -21,7 +21,12 @@
 
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
-html{scroll-behavior:smooth}
+
+/* O fundo do <html> pinta a tela do navegador — inclusive a faixa que aparece
+   quando o macOS/iOS estica a rolagem além do topo ou do fim da página. Escuro
+   aqui faz essa faixa continuar o header e o rodapé em vez de piscar branco.
+   O branco do conteúdo fica no <body>, que não propaga por já ter fundo próprio. */
+html{scroll-behavior:smooth;background:var(--dark)}
 
 body{
   background:#fff;
