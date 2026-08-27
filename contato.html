@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Medyx · Falar com a Medyx</title>
+<meta name="description" content="Atendemos cooperativas médicas. Retornamos em até 2 dias úteis, no e-mail corporativo informado.">
+<link rel="canonical" href="https://medyx.com.br/contato.html">
+<meta name="theme-color" content="#0F1D18">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Medyx">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="https://medyx.com.br/contato.html">
+<meta property="og:title" content="Medyx · Falar com a Medyx">
+<meta property="og:description" content="Atendemos cooperativas médicas. Retornamos em até 2 dias úteis.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+<div class="page">
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">
+        <svg viewBox="0 0 282 292" aria-hidden="true" focusable="false"><path d="M133.148 1.96015L75.8498 63.1601C71.2151 68.1101 68.6338 74.7001 68.6338 81.5501V212.45C68.6338 218.13 75.3609 220.95 79.2622 216.91L138.525 155.48V284.01C138.525 289.68 145.233 292.5 149.134 288.49L207.508 228.42C212.348 223.44 215.066 216.7 215.066 209.68V80.3902C215.066 74.7302 208.378 71.9001 204.467 75.9001L144.627 137.17L143.844 6.32015C143.815 0.620149 137.01 -2.14985 133.157 1.97015L133.148 1.96015Z"></path><path d="M74.0606 143.56L39.2908 109.19C36.8463 106.77 32.9548 106.82 30.5592 109.29L1.793 139.09C-0.602554 141.57 -0.592776 145.55 1.793 148.02L30.5592 177.69C32.945 180.15 36.8268 180.2 39.2712 177.79L74.0508 143.55L74.0606 143.56Z"></path><path d="M209.482 145.019L242.101 110.619C244.526 108.059 248.535 108.049 250.979 110.589L279.755 140.519C282.151 143.009 282.131 147.009 279.706 149.469L251.155 178.559C248.73 181.029 244.819 181.029 242.394 178.559L209.473 145.019H209.482Z"></path></svg>
+        <span>Medyx</span>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="/">← voltar ao site</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="wrap wrap--narrow form-page">
+
+      <div id="form-view">
+        <div class="form-page__head" style="margin-bottom:32px">
+          <h1>Falar com a Medyx</h1>
+          <p>Atendemos cooperativas médicas. Retornamos em até 2 dias úteis, no e-mail corporativo informado.</p>
+        </div>
+
+        <form class="form" id="contato-form" novalidate>
+          <div class="form__row">
+            <label class="field">
+              <span>Nome</span>
+              <input name="nome" type="text" autocomplete="name" required>
+            </label>
+            <label class="field">
+              <span>Cargo</span>
+              <input name="cargo" type="text" autocomplete="organization-title">
+            </label>
+          </div>
+          <div class="form__row">
+            <label class="field">
+              <span>Cooperativa</span>
+              <input name="cooperativa" type="text" autocomplete="organization">
+            </label>
+            <label class="field">
+              <span>E-mail corporativo</span>
+              <input name="email" type="email" inputmode="email" autocomplete="email" placeholder="nome@cooperativa.com.br" required>
+            </label>
+          </div>
+          <label class="field">
+            <span>Mensagem</span>
+            <textarea name="mensagem" rows="5" placeholder="Conte brevemente o contexto da cooperativa e o que motiva o contato." required></textarea>
+          </label>
+          <p class="form__error" id="form-error" hidden role="alert"></p>
+          <div class="form__actions">
+            <button class="btn btn--primary" type="submit" id="submit-btn">Enviar mensagem</button>
+            <span class="form__note">Os dados deste formulário são usados apenas para responder ao seu contato.</span>
+          </div>
+        </form>
+      </div>
+
+      <div class="sent" id="sent-view" hidden>
+        <strong>Mensagem recebida</strong>
+        <p>Obrigado pelo contato. Retornamos em até 2 dias úteis no e-mail corporativo informado.</p>
+        <a href="/">← voltar ao site</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer site-footer--slim">
+    <div class="wrap">
+      <a href="/legal.html#termos">Termos de uso</a>
+      <a href="/legal.html#privacidade">Política de privacidade</a>
+      <span class="site-footer__copy">© 2026 Medyx</span>
+    </div>
+  </footer>
+
+</div>
+<script src="/assets/js/contato.js"></script>
+</body>
+</html>
